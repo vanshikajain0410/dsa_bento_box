@@ -1,4 +1,3 @@
-import 'package:dsa_bento_box/Dashboard/models/game_tile.dart';
 import 'package:flutter/material.dart';
 
 class GameCard extends StatelessWidget {
@@ -41,5 +40,5 @@ class GameCard extends StatelessWidget {
 
 Color _getTextColor(Color backgroundColor) {
     final luminance = backgroundColor.computeLuminance();
-    return luminance > 0.5 ? Colors.black87 : Colors.white;
+    return luminance > 0.5 ? const Color.fromARGB(221, 31, 29, 29) : const Color.fromARGB(255, 241, 239, 239);
   }

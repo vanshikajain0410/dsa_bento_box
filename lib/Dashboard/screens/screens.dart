@@ -1,4 +1,4 @@
-// Placeholder Screens
+//Screens
 import 'package:flutter/material.dart';
 
 class SnakeScreen extends StatelessWidget {
@@ -49,17 +49,17 @@ class MazeRunner extends StatelessWidget {
   }
 }
 
-class WhackAMole extends StatelessWidget {
-  const WhackAMole({super.key});
+// class WhackAMole extends StatelessWidget {
+//   const WhackAMole({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Whack A Mole')),
-      body: const Center(child: Text('Whack A Mole Coming Soon')),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(title: const Text('Whack A Mole')),
+//       body: const Center(child: Text('Whack A Mole Coming Soon')),
+//     );
+//   }
+// }
 
 class MemoryCard extends StatelessWidget {
   const MemoryCard({super.key});
