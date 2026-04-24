@@ -1,5 +1,10 @@
 import 'package:dsa_bento_box/Dashboard/screens/screens.dart';
 import 'package:dsa_bento_box/Dashboard/widget/game_card.dart';
+import 'package:dsa_bento_box/games/2048Game/2048_screen.dart';
+import 'package:dsa_bento_box/games/MazeRunner/maze_runner_screen.dart';
+import 'package:dsa_bento_box/games/MemoryCard/memory_card_screen.dart';
+import 'package:dsa_bento_box/games/SnakeGame/snake_game_screen.dart';
+import 'package:dsa_bento_box/games/TIcTacToe/tic_tac_toe_screen.dart';
 import 'package:dsa_bento_box/games/WhackAMole/whack_a_mole_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
